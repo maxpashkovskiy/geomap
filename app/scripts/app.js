@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name testApp
+ * @name angyogrApp
  * @description
- * # testApp
+ * # angyogrApp
  *
  * Main module of the application.
  */
 angular
-  .module('testApp', [
+  .module('angyogrApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
