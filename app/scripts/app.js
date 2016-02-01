@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('angyogrApp', [
+  .module('testApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -28,6 +28,11 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+       .when('/map', {
+        templateUrl: 'views/geomap_mini.html',
+        controller: 'geoCtrl',
+        controllerAs: 'map'
       })
       .otherwise({
         redirectTo: '/'
