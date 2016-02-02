@@ -1,0 +1,25 @@
+{ "books": {
+     "study":{  
+        
+            "text": "AngularJS!",
+            "author": "Вова Сидоров",
+            "date": "20/10/2013",
+            "rate":2
+        },
+    "article":{
+            "text": "AngularJS лучше всех",
+            "author": "Олег Кузнецов",
+            "date": "21/10/2013",
+            "rate":3
+            }
+        ,
+    "public":{
+            "text": "Война и мир",
+            "author": "Лев Толстой",
+            "date": "21/10/2013",
+            "rate":4
+            }
+
+        
+             }
+        }

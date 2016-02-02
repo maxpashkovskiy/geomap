@@ -44,12 +44,19 @@
               <li><a ng-href="#/">Contact</a></li>
               <li><a ng-href="#/map">Map</a></li>
               <li><a href="views/geomap_mini.html">Map</a></li>
+               <li><a href="test.html">Ng Repeat</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-
+<div>
+  <input class="aunt" ng-model="login" name="login">
+  <input class="aunt" ng-model="pass" name="pass">
+  <button class="but"  ng-click="click()" name="click"></button>
+  <span>
+  <p>{{login}}-{{pass}}</p>
+</div>
     <div class="container">
     <div ng-view=""></div>
     </div>

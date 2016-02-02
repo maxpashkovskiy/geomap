@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+	
+<body ng-controller="testCtrl">
+<script>// var Ctrl=angular.module('myApp',[]);
+
+// Ctrl.controller('testCtrl',function($scope){
+//       $scope.books = [{
+//             "text": "AngularJS!",
+//             "author": "Вова Сидоров",
+//             "date": "20/10/2013",
+//             "rate":2
+//         },{
+//             "text": "AngularJS лучше всех",
+//             "author": "Олег Кузнецов",
+//             "date": "21/10/2013",
+//             "rate":3
+//         }
+//         ,
+//         {
+//             "text": "Война и мир",
+//             "author": "Лев Толстой",
+//             "date": "21/10/2013",
+//             "rate":4
+//         }
+//         ]
+//     });
+</script>		
+<input class="aunt" ng-model="login" name="login">
+  <input class="aunt" ng-model="pass" name="pass">
+  <button class="but" type="" ng-click="click()">JSON</button>
+  <p>{{login}}-{{pass}}</p> 	
+  <ul>
+<p>Test</p>
+<!-- Обязательно !! <ul><li> -->
+  </ul>
+  <li ng-repeat="book in data.book"></li>  
+	<span>
+  	{{book.public}}-
+  </span>
+	<p>{{book.public.author}}-{{book.public.text}}</p>
+	
+
+<script src="scripts/controllers/ngrepeat.js"></script>
+	
+</body>
+</html>
